@@ -25,16 +25,16 @@ body {
     background-color: var(--C1);
     display: flex;
     padding: 0.5rem;
-    gap: 1rem 4rem;
     flex-wrap: wrap ;
     justify-content: center;
-    width: 70%;
+    width: 90%;
     font-size: 1.6rem;
+    gap: 1rem 6rem;
 }
 
 .headPart>nav {
     display: flex;
-    min-width: 6em;
+    min-width: 10em;
     background-color: var(--C2);
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ body {
 .mainPart>section {
     display: flex;
     flex-flow: column;
-    width: 70%;
+    width: 90%;
     padding: 1% 2%;
     font-size: 3rem;
     font-weight: 300;
@@ -87,7 +87,7 @@ body {
 .mainPart>section>article:nth-of-type(1)>div>span:nth-of-type(1) {font-weight: 500;}
 /* ----- FOOTER ----- */
 .footPart{
-    width: 70%;
+    width: 90%;
     background-color: var(--C5);
     display: flex;
     flex-flow: row wrap;
@@ -103,7 +103,7 @@ body {
     color: var(--C1);
     font-weight: 700;
     text-align: center;
-    border-bottom: 2px solid var(--C3);
+    border-bottom: 0.2rem solid var(--C3);
     padding: 0.2em 0 0 0;
     letter-spacing: 0.2em;
 }
