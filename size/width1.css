@@ -2,14 +2,13 @@
     html{
         font-size: 6px;
     }    
-    .mainPart>section {
-    width: 90%;
+    .mainPart>section {        
+        width: 90%;
     }
     .headPart {
         width: 90%;
     }
     .footPart{
-        flex: 100px 0 0;
         width: 90%;
     }    
 }

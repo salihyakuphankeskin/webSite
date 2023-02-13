@@ -1,0 +1,6 @@
+@media only screen and (max-height: 800px) {
+    
+    .footPart{
+        flex: 100px 0 0;
+    } 
+}

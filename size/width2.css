@@ -1,0 +1,14 @@
+@media only screen and (max-width: 700px) {
+    html{
+        font-size: 5px;
+    } 
+    .mainPart>section {        
+        width: 100%;
+    }
+    .headPart {
+        width: 100%;
+    }
+    .footPart{
+        width: 100%;
+    } 
+}
